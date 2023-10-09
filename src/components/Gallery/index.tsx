@@ -5,7 +5,6 @@ import { GalleryItem } from '../../Pages/Home'
 
 import { Item, Items, Action, Modal, ModalContent } from './styles'
 
-import zelda from '../../assets/images/zelda.png'
 import spiderman from '../../assets/images/banner-homem-aranha.png'
 import hogwarts from '../../assets/images/fundo_hogwarts.png'
 import play from '../../assets/images/play.png'
