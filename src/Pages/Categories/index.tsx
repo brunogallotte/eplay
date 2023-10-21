@@ -14,8 +14,7 @@ const Categories = () => {
   const { data: fightGames, isLoading: isLoadingFight } =
     useGetFightGamesQuery()
   const { data: rpgGames, isLoading: isLoadingRPG } = useGetRpgGamesQuery()
-  const { data: simulationGames, isLoading: isLoadingSimulation } =
-    useGetSimulationGamesQuery()
+  const { data: simulationGames } = useGetSimulationGamesQuery()
   const { data: sportGames, isLoading: isLoadingSports } =
     useGetSportGamesQuery()
 
